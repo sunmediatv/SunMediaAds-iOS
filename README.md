@@ -9,40 +9,17 @@ The current version (2.11.2) is tested with Xcode11 or above and is compatible w
 
 1. Download our SDK from the release section or clone it. 
 >If you decide to clone it, you have to install [git LFS](https://git-lfs.github.com/) to clone it correctly, otherwise some ad networks will not be correctly integrated. 
-2. Add the following frameworks and libs to your project in General tab Linked Frameworks and Libraries. Ensure that the frameworks are linked correctly.
 
+2. Add "SunMediaAds.framework" to your xcode project. The file is in "SunMediaAds/SunMediaAds.framework".
+
+2. Add the following to your pod file. For instructions of cocoadpods visit [CocoaPods](https://guides.cocoapods.org/using/getting-started.html)
+```swift
+pod 'Smart-Display-SDK'
+  pod 'SpotX-SDK', '~> 4.6.1'
+  pod 'FBAudienceNetwork'
+  pod 'FBSDKCoreKit'
+  pod 'Google-Mobile-Ads-SDK'
 ```
-AdSupport.framework
-AudioToolbox.framework
-AVFoundation.framework
-CFNetwork.framework
-CoreGraphics.framework
-CoreMedia.framework
-CoreTelephony.framework
-EventKit.framework
-EventKitUI.framework
-Foundation.framework
-JavaScriptCore.framework
-libc++.tbd
-libsqlite3.tbd
-libxml2.2.tbd
-libz.1.2.5.tbd
-MediaPlayer.framework
-MobileCoreServices.framework
-QuartzCore.framework
-SafariServices.framework
-Social.framework
-StoreKit.framework
-SystemConfiguration.framework
-UIKit.framework
-VideoToolbox.framework
-WebKit.framework
-WatchConnectivity.framework
-```
-
-3. Lastly, add the following values to the **Other Linker Flags** in the **Build Settings** tab: 
-
-      -ObjC,-fobjc-arc
 
 ### Swift 
 
@@ -56,7 +33,7 @@ Now in build settings tab in "Swift Compiler - General" in the field "Objective-
 
 ### Integrate SunMediaAds Network Adapters
 
-Lab Cave Mediation supports Banners, Interstitials and Video Rewarded from various leading ad networks, with advanced functionalities like ads auto-fetching and advanced delivery optimization.
+SunMediaAds supports Banners, Interstitials and Video Rewarded from various leading ad networks, with advanced functionalities like ads auto-fetching and advanced delivery optimization.
 
 **IMPORTANT IF YOU ARE USING ADMOB**
 

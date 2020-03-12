@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A560C78241A3D320077C6DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A560C77241A3D320077C6DC /* AppDelegate.m */; };
+		6A560C7B241A3D320077C6DC /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A560C7A241A3D320077C6DC /* SceneDelegate.m */; };
+		6A560C7E241A3D320077C6DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A560C7D241A3D320077C6DC /* ViewController.m */; };
+		6A560C81241A3D320077C6DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A560C7F241A3D320077C6DC /* Main.storyboard */; };
+		6A560C83241A3D340077C6DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A560C82241A3D340077C6DC /* Assets.xcassets */; };
+		6A560C86241A3D340077C6DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A560C84241A3D340077C6DC /* LaunchScreen.storyboard */; };
+		6A560C89241A3D340077C6DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A560C88241A3D340077C6DC /* main.m */; };
+		6A560C93241A3D340077C6DC /* SunMediaAdsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A560C92241A3D340077C6DC /* SunMediaAdsTests.m */; };
+		6A560C9E241A3D340077C6DC /* SunMediaAdsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A560C9D241A3D340077C6DC /* SunMediaAdsUITests.m */; };
+		6AF17044241A479D00468AE8 /* SunMediaAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AF17043241A479D00468AE8 /* SunMediaAds.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A560C8F241A3D340077C6DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A560C6B241A3D320077C6DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A560C72241A3D320077C6DC;
+			remoteInfo = SunMediaAds;
+		};
+		6A560C9A241A3D340077C6DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A560C6B241A3D320077C6DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A560C72241A3D320077C6DC;
+			remoteInfo = SunMediaAds;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A560C73241A3D320077C6DC /* SunMediaAds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SunMediaAds.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A560C76241A3D320077C6DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6A560C77241A3D320077C6DC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6A560C79241A3D320077C6DC /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		6A560C7A241A3D320077C6DC /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		6A560C7C241A3D320077C6DC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6A560C7D241A3D320077C6DC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6A560C80241A3D320077C6DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6A560C82241A3D340077C6DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A560C85241A3D340077C6DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6A560C87241A3D340077C6DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A560C88241A3D340077C6DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6A560C8E241A3D340077C6DC /* SunMediaAdsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SunMediaAdsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A560C92241A3D340077C6DC /* SunMediaAdsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SunMediaAdsTests.m; sourceTree = "<group>"; };
+		6A560C94241A3D340077C6DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A560C99241A3D340077C6DC /* SunMediaAdsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SunMediaAdsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A560C9D241A3D340077C6DC /* SunMediaAdsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SunMediaAdsUITests.m; sourceTree = "<group>"; };
+		6A560C9F241A3D340077C6DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AF17043241A479D00468AE8 /* SunMediaAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SunMediaAds.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A560C70241A3D320077C6DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AF17044241A479D00468AE8 /* SunMediaAds.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A560C8B241A3D340077C6DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A560C96241A3D340077C6DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A560C6A241A3D320077C6DC = {
+			isa = PBXGroup;
+			children = (
+				6AF17043241A479D00468AE8 /* SunMediaAds.framework */,
+				6A560C75241A3D320077C6DC /* SunMediaAds */,
+				6A560C91241A3D340077C6DC /* SunMediaAdsTests */,
+				6A560C9C241A3D340077C6DC /* SunMediaAdsUITests */,
+				6A560C74241A3D320077C6DC /* Products */,
+				B165479E367A2F67407EB940 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		6A560C74241A3D320077C6DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A560C73241A3D320077C6DC /* SunMediaAds.app */,
+				6A560C8E241A3D340077C6DC /* SunMediaAdsTests.xctest */,
+				6A560C99241A3D340077C6DC /* SunMediaAdsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A560C75241A3D320077C6DC /* SunMediaAds */ = {
+			isa = PBXGroup;
+			children = (
+				6A560C76241A3D320077C6DC /* AppDelegate.h */,
+				6A560C77241A3D320077C6DC /* AppDelegate.m */,
+				6A560C79241A3D320077C6DC /* SceneDelegate.h */,
+				6A560C7A241A3D320077C6DC /* SceneDelegate.m */,
+				6A560C7C241A3D320077C6DC /* ViewController.h */,
+				6A560C7D241A3D320077C6DC /* ViewController.m */,
+				6A560C7F241A3D320077C6DC /* Main.storyboard */,
+				6A560C82241A3D340077C6DC /* Assets.xcassets */,
+				6A560C84241A3D340077C6DC /* LaunchScreen.storyboard */,
+				6A560C87241A3D340077C6DC /* Info.plist */,
+				6A560C88241A3D340077C6DC /* main.m */,
+			);
+			path = SunMediaAds;
+			sourceTree = "<group>";
+		};
+		6A560C91241A3D340077C6DC /* SunMediaAdsTests */ = {
+			isa = PBXGroup;
+			children = (
+				6A560C92241A3D340077C6DC /* SunMediaAdsTests.m */,
+				6A560C94241A3D340077C6DC /* Info.plist */,
+			);
+			path = SunMediaAdsTests;
+			sourceTree = "<group>";
+		};
+		6A560C9C241A3D340077C6DC /* SunMediaAdsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6A560C9D241A3D340077C6DC /* SunMediaAdsUITests.m */,
+				6A560C9F241A3D340077C6DC /* Info.plist */,
+			);
+			path = SunMediaAdsUITests;
+			sourceTree = "<group>";
+		};
+		B165479E367A2F67407EB940 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A560C72241A3D320077C6DC /* SunMediaAds */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A560CA2241A3D340077C6DC /* Build configuration list for PBXNativeTarget "SunMediaAds" */;
+			buildPhases = (
+				6A560C6F241A3D320077C6DC /* Sources */,
+				6A560C70241A3D320077C6DC /* Frameworks */,
+				6A560C71241A3D320077C6DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SunMediaAds;
+			productName = SunMediaAds;
+			productReference = 6A560C73241A3D320077C6DC /* SunMediaAds.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6A560C8D241A3D340077C6DC /* SunMediaAdsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A560CA5241A3D340077C6DC /* Build configuration list for PBXNativeTarget "SunMediaAdsTests" */;
+			buildPhases = (
+				6A560C8A241A3D340077C6DC /* Sources */,
+				6A560C8B241A3D340077C6DC /* Frameworks */,
+				6A560C8C241A3D340077C6DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A560C90241A3D340077C6DC /* PBXTargetDependency */,
+			);
+			name = SunMediaAdsTests;
+			productName = SunMediaAdsTests;
+			productReference = 6A560C8E241A3D340077C6DC /* SunMediaAdsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6A560C98241A3D340077C6DC /* SunMediaAdsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A560CA8241A3D340077C6DC /* Build configuration list for PBXNativeTarget "SunMediaAdsUITests" */;
+			buildPhases = (
+				6A560C95241A3D340077C6DC /* Sources */,
+				6A560C96241A3D340077C6DC /* Frameworks */,
+				6A560C97241A3D340077C6DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A560C9B241A3D340077C6DC /* PBXTargetDependency */,
+			);
+			name = SunMediaAdsUITests;
+			productName = SunMediaAdsUITests;
+			productReference = 6A560C99241A3D340077C6DC /* SunMediaAdsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A560C6B241A3D320077C6DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = SunMediaAds;
+				TargetAttributes = {
+					6A560C72241A3D320077C6DC = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					6A560C8D241A3D340077C6DC = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 6A560C72241A3D320077C6DC;
+					};
+					6A560C98241A3D340077C6DC = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 6A560C72241A3D320077C6DC;
+					};
+				};
+			};
+			buildConfigurationList = 6A560C6E241A3D320077C6DC /* Build configuration list for PBXProject "SunMediaAds" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A560C6A241A3D320077C6DC;
+			productRefGroup = 6A560C74241A3D320077C6DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A560C72241A3D320077C6DC /* SunMediaAds */,
+				6A560C8D241A3D340077C6DC /* SunMediaAdsTests */,
+				6A560C98241A3D340077C6DC /* SunMediaAdsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A560C71241A3D320077C6DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A560C86241A3D340077C6DC /* LaunchScreen.storyboard in Resources */,
+				6A560C83241A3D340077C6DC /* Assets.xcassets in Resources */,
+				6A560C81241A3D320077C6DC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A560C8C241A3D340077C6DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A560C97241A3D340077C6DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A560C6F241A3D320077C6DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A560C7E241A3D320077C6DC /* ViewController.m in Sources */,
+				6A560C78241A3D320077C6DC /* AppDelegate.m in Sources */,
+				6A560C89241A3D340077C6DC /* main.m in Sources */,
+				6A560C7B241A3D320077C6DC /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A560C8A241A3D340077C6DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A560C93241A3D340077C6DC /* SunMediaAdsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A560C95241A3D340077C6DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A560C9E241A3D340077C6DC /* SunMediaAdsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A560C90241A3D340077C6DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A560C72241A3D320077C6DC /* SunMediaAds */;
+			targetProxy = 6A560C8F241A3D340077C6DC /* PBXContainerItemProxy */;
+		};
+		6A560C9B241A3D340077C6DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A560C72241A3D320077C6DC /* SunMediaAds */;
+			targetProxy = 6A560C9A241A3D340077C6DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6A560C7F241A3D320077C6DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A560C80241A3D320077C6DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6A560C84241A3D340077C6DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A560C85241A3D340077C6DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A560CA0241A3D340077C6DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6A560CA1241A3D340077C6DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A560CA3241A3D340077C6DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = SunMediaAds/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunmedia.SunMediaAds;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6A560CA4241A3D340077C6DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = SunMediaAds/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunmedia.SunMediaAds;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6A560CA6241A3D340077C6DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SunMediaAdsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunmedia.SunMediaAdsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SunMediaAds.app/SunMediaAds";
+			};
+			name = Debug;
+		};
+		6A560CA7241A3D340077C6DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SunMediaAdsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunmedia.SunMediaAdsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SunMediaAds.app/SunMediaAds";
+			};
+			name = Release;
+		};
+		6A560CA9241A3D340077C6DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SunMediaAdsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunmedia.SunMediaAdsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SunMediaAds;
+			};
+			name = Debug;
+		};
+		6A560CAA241A3D340077C6DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SunMediaAdsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunmedia.SunMediaAdsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SunMediaAds;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A560C6E241A3D320077C6DC /* Build configuration list for PBXProject "SunMediaAds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A560CA0241A3D340077C6DC /* Debug */,
+				6A560CA1241A3D340077C6DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A560CA2241A3D340077C6DC /* Build configuration list for PBXNativeTarget "SunMediaAds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A560CA3241A3D340077C6DC /* Debug */,
+				6A560CA4241A3D340077C6DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A560CA5241A3D340077C6DC /* Build configuration list for PBXNativeTarget "SunMediaAdsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A560CA6241A3D340077C6DC /* Debug */,
+				6A560CA7241A3D340077C6DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A560CA8241A3D340077C6DC /* Build configuration list for PBXNativeTarget "SunMediaAdsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A560CA9241A3D340077C6DC /* Debug */,
+				6A560CAA241A3D340077C6DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A560C6B241A3D320077C6DC /* Project object */;
+}

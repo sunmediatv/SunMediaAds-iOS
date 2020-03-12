@@ -1,0 +1,6 @@
+framework module SunMediaAds {
+  umbrella header "SunMediaAds.h"
+
+  export *
+  module * { export * }
+}
