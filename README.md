@@ -1,6 +1,6 @@
 # SunMediaAds iOS SDK
 
-The current version (2.11.2) is tested with Xcode11 or above and is compatible with iOS 9 and above.
+The current version (2.12.2) is tested with Xcode11 or above and is compatible with iOS 9 and above.
 
 >Xcode11 is mandatory for building the project
 
@@ -15,7 +15,7 @@ The current version (2.11.2) is tested with Xcode11 or above and is compatible w
 2. Add the following to your pod file. For instructions of cocoadpods visit [CocoaPods](https://guides.cocoapods.org/using/getting-started.html)
 ```swift
 pod 'Smart-Display-SDK'
-  pod 'SpotX-SDK', '~> 4.6.1'
+  pod 'SpotX-SDK',
   pod 'FBAudienceNetwork'
   pod 'FBSDKCoreKit'
   pod 'Google-Mobile-Ads-SDK'

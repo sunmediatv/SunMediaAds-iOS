@@ -78,7 +78,7 @@ typedef NS_ENUM(NSUInteger, LMLType) {
  */
 - (void)advertDidClose:(NSString *)provider type:(LMLType)type zone:(NSString *)zoneId;
 
-- (void)advertDidClose:(NSString *)provider type:(LMLType)type adLocation:(NSString *)adLocation;
+- (void)advertDidClose:(NSString *)provider type:(LMLType)type adLocation:(NSString *)adLocation reward:(BOOL)reward;
 
 /**
  * Advert Request Fail

@@ -5,7 +5,7 @@
 //  Created by SunMediaAds on 21/2/17.
 //  Copyright © 2017 VLN SERVICIOS PUBLICITARIOS INTEGRALES S.L. All rights reserved.
 //
-// SunMediaAds SDK 2.11.2
+// SunMediaAds SDK 1.0.0
 
 #import <Foundation/Foundation.h>
 #import <CoreLocation/CoreLocation.h>
